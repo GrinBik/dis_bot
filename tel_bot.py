@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('TELTOKEN')
 bot = telebot.TeleBot(TOKEN)
 
 keyboard = InlineKeyboardMarkup()
